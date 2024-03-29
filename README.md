@@ -76,21 +76,7 @@ The project directory structure is organized as follows:
     python manage.py test
     ```
 
-## Customization
-
-- **Enums**: Customize enums in `enums.py` to fit your project's requirements.
-- **Constants**: Update dictionaries in `constants.py` with accurate prices and component names.
-- **Error Handling**: Extend `errors.py` with additional custom error classes as needed.
-- **Controllers**: Implement business logic and API endpoints in `controllers/` directory.
 
 ## Testing
 
 Unit tests are provided in the `tests/` directory. Run `python manage.py test` to execute the tests and ensure code quality.
-
-## Contributors
-
-- [Your Name](https://github.com/your-username)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
