@@ -9,7 +9,7 @@ The project directory structure is organized as follows:
 - **mobile_factory/**: Main Django project directory.
   - **enums.py**: Defines enums for input types, component types, and components.
   - **errors.py**: Contains custom error classes for the project.
-  - **constants.py**: Defines dictionaries mapping input types to prices, component types to component names, and input types to component types.
+  - **constants.py**: Defines dictionaries mapping input types to prices, component names to component type, and input types to component types.
   - **data_classes.py**: Contains data classes for API responses and controllers.
   - **controllers/**: Folder containing controller logic for handling order creation and management.
   - **tests/**: Folder containing unit tests for the project.
