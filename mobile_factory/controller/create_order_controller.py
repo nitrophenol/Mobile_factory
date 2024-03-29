@@ -1,8 +1,5 @@
-import json
-from django.http import JsonResponse
 from mobile_factory.constants import PRICE_DATA, COMPONENT_DATA
 from mobile_factory.enums import InputType
-
 from mobile_factory.data_classes import CreateOrderResponse
 from uuid import uuid4
 import pdb

@@ -1,6 +1,6 @@
 # Mobile Factory Project
 
-The Mobile Factory project is a Django-based web application that simplifies the process of creating orders for mobile devices. It provides a RESTful API built using Django REST Framework (DRF) for handling order creation and management.
+The Mobile Factory project is a Django-based application that simplifies the process of creating orders for mobile devices. It provides a RESTful API built using Django REST Framework (DRF) for handling order creation and management.
 
 ## Project Structure
 
@@ -52,13 +52,7 @@ The project directory structure is organized as follows:
     pip install -r requirements.txt
     ```
 
-4. **Database Migration**:
 
-    Run database migrations to apply initial schema:
-
-    ```
-    python manage.py migrate
-    ```
 
 5. **Run the Server**:
 

@@ -1,9 +1,7 @@
-from django.http import JsonResponse
-from dataclasses import dataclass, asdict
+from dataclasses import asdict
 from mobile_factory.controller.create_order_controller import CreateOrderController
 from mobile_factory.errors import FailedToCreateOrder
 import json
-from django.http import JsonResponse
 from rest_framework.decorators import api_view
 from mobile_factory.serializers import CreateOrderSerializer
 from mobile_factory.data_classes import Components
