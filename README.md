@@ -15,6 +15,7 @@ The project directory structure is organized as follows:
   - **tests/**: Folder containing unit tests for the project.
   - **serializers.py**: Contains serializers for creating orders.
   - Other standard Django project files and folders.
+  - **apps.py**: Contains startup code in which validations on all the enums and constants takes place before starting the server 
 
 ## Installation and Setup
 
