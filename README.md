@@ -1,0 +1,96 @@
+# Mobile Factory Project
+
+The Mobile Factory project is a Django-based web application that simplifies the process of creating orders for mobile devices. It provides a RESTful API built using Django REST Framework (DRF) for handling order creation and management.
+
+## Project Structure
+
+The project directory structure is organized as follows:
+
+- **mobile_factory/**: Main Django project directory.
+  - **enums.py**: Defines enums for input types, component types, and components.
+  - **errors.py**: Contains custom error classes for the project.
+  - **constants.py**: Defines dictionaries mapping input types to prices, component types to component names, and input types to component types.
+  - **data_classes.py**: Contains data classes for API responses and controllers.
+  - **controllers/**: Folder containing controller logic for handling order creation and management.
+  - **tests/**: Folder containing unit tests for the project.
+  - **serializers.py**: Contains serializers for creating orders.
+  - Other standard Django project files and folders.
+
+## Installation and Setup
+
+1. **Clone the Repository**:
+
+    ```
+    git clone <repository-url>
+    ```
+
+2. **Setup Virtual Environment**:
+
+    - Create a virtual environment:
+    
+        ```
+        python -m venv venv
+        ```
+
+    - Activate the virtual environment:
+    
+        - On Windows:
+        
+            ```
+            venv\Scripts\activate
+            ```
+
+        - On Unix or MacOS:
+        
+            ```
+            source venv/bin/activate
+            ```
+
+3. **Install Dependencies**:
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+4. **Database Migration**:
+
+    Run database migrations to apply initial schema:
+
+    ```
+    python manage.py migrate
+    ```
+
+5. **Run the Server**:
+
+    Start the Django development server:
+
+    ```
+    python manage.py runserver
+    ```
+
+6. **Run Tests**:
+
+    Execute unit tests to ensure everything is working as expected:
+
+    ```
+    python manage.py test
+    ```
+
+## Customization
+
+- **Enums**: Customize enums in `enums.py` to fit your project's requirements.
+- **Constants**: Update dictionaries in `constants.py` with accurate prices and component names.
+- **Error Handling**: Extend `errors.py` with additional custom error classes as needed.
+- **Controllers**: Implement business logic and API endpoints in `controllers/` directory.
+
+## Testing
+
+Unit tests are provided in the `tests/` directory. Run `python manage.py test` to execute the tests and ensure code quality.
+
+## Contributors
+
+- [Your Name](https://github.com/your-username)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
